@@ -1829,7 +1829,6 @@ input, select, textarea {
 		padding: 0.85em 1.85em;
 		text-align: center;
 	}
-
 		input[type="button"]:hover,
 		input[type="submit"]:hover,
 		input[type="reset"]:hover,
@@ -2730,14 +2729,15 @@ input, select, textarea {
 	}
 
 /* Medium */
-
-
-
 	#navPanel, #titleBar {
 		display: none;
 	}
 
 	@media screen and (max-width: 980px) {
+
+		.grid{
+			grid-template-columns: 2fr;
+		}
 
 		/* Basic */
 
