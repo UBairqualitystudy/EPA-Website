@@ -43,6 +43,16 @@
 	// Nav.
 
 		// Title Bar.
+		const checkTypewriter = document.querySelector('#logo-home')
+		if (checkTypewriter) {
+			$(
+				'<div id="titleBar">' +
+					'<a href="#navPanel" class="toggle"></a>' +
+					'<span class="title">' + $('#logo-home').html() + '</span>' +
+				'</div>'
+			)
+				.appendTo($body);		}
+		else{
 			$(
 				'<div id="titleBar">' +
 					'<a href="#navPanel" class="toggle"></a>' +
@@ -50,6 +60,7 @@
 				'</div>'
 			)
 				.appendTo($body);
+		}
 
 		// Panel.
 			$(
