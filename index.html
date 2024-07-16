@@ -11,12 +11,6 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script> <!-- ...or whereever you have jquery stored -->
-		<script> 
-		$(function(){
-		$("#navbar").load("navbar.html"); 
-		});
-		</script>
 	</head>
 	<body class="homepage is-preload">
 		<div id="page-wrapper">
@@ -32,7 +26,15 @@
 				</header>
 
 			<!-- Nav -->
-				<div id="navbar"></div>
+				<nav id="nav">
+					<ul>
+						<li class="current"><a href="index.html">Home</a></li>
+						<li><a href="left-sidebar.html">FAQs</a></li>
+						<li><a href="right-sidebar.html">Events</a></li>
+						<li><a href="people.html">People</a></li>
+						<li><a href="mailto: ubairqualitystudyinfo@gmail.com">Contact Us</a></li>
+					</ul>
+				</nav>
 
 			<!-- Banner -->
 				<section id="banner">
