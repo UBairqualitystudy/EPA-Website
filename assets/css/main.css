@@ -1788,6 +1788,7 @@ input, select, textarea {
 		.image.left {
 			float: left;
 			margin: 0 2em 2em 0;
+			
 		}
 
 		.image.centered {
@@ -1799,6 +1800,8 @@ input, select, textarea {
 				margin: 0 auto;
 				width: auto;
 			}
+		
+
 
 /* Button */
 
