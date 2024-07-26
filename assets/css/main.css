@@ -1767,7 +1767,6 @@ input, select, textarea {
 		.image.UBStacked {
 			height: auto;
 			width: 18%;
-	
 		}
 
 		.image.US_EPA{
@@ -1789,7 +1788,13 @@ input, select, textarea {
 		.image.left {
 			float: left;
 			margin: 0 2em 2em 0;
-			
+		}
+
+		.image.bottom-right{
+			position: absolute;
+			bottom: 8px;
+			right: 16px;
+			color: #f0fff5;
 		}
 
 		.image.centered {
@@ -2528,7 +2533,7 @@ input, select, textarea {
 		} 
 
 			#banner .content h2 {
-				color: #8de4b0;
+				color: #94e09f;
 				font-size: 2.75em;
 				text-shadow: 6px 6px 12px rgba(70, 83, 76, 0.3);
 				margin: 0 0 0.5em 0;
